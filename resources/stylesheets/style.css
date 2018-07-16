@@ -1,3 +1,112 @@
+/* Universal Styling */
+
 html {
   font-size: 18px;
+  font-family: "Helvetica", sans-serif;
+  color: white;
+}
+
+h1, h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+/* Header Styling */
+
+header {
+  background-color: black;
+  text-transform: uppercase;
+}
+
+.logo {
+  padding: 0.66rem 0.5rem;
+}
+
+.logo img {
+  height: 1.5rem;
+  width: auto;
+}
+
+/* Banner Styling */
+
+.banner {
+  background-image: url("../media/images/moto.jpeg");
+  height: 25rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bannertext {
+  background-color: black;
+  width: 20rem;
+  text-align: left;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.bannertext h1 {
+  padding-top: 0.25rem;
+}
+
+/* Navigation Styling */
+
+.navigation {
+  background-color: firebrick;
+}
+
+.navigation nav {
+  padding: 0.75rem;
+  text-align: center;
+}
+
+/* Product Styling */
+
+.product {
+  margin: 3rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+
+.productimg {
+  border: 4px solid black;
+  width: 30%;
+  text-align: center;
+}
+
+.productimg img {
+  height: 9rem;
+  padding: 2rem 0rem;
+}
+
+.product p {
+  background-color: black;
+  padding: 0.5rem 0;
+}
+
+/* Location Styling */
+
+.location {
+  margin-bottom: 4rem;
+}
+
+/* Footer Styling */
+
+footer {
+  text-align: left;
+  height: 5rem;
+  background-color: black;
 }
